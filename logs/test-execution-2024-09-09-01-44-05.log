@@ -1,0 +1,390 @@
+2024-09-09 01:44:13 INFO  org.automation.utils.CustomTestListener - Test Suite Started: CRUD functionality validation for different pages
+2024-09-09 01:44:13 INFO  org.automation.utils.CustomTestListener - Test Started : validateUserLoggedIn
+2024-09-09 01:44:13 INFO  org.automation.testcases.Testcase_001_Login - Test Execution Status: User logged into OrangeHrm portal.
+2024-09-09 01:44:13 INFO  org.automation.utils.CustomTestListener - Test Passed : validateUserLoggedIn
+2024-09-09 01:44:14 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:44:15 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able add employee without login credential
+2024-09-09 01:44:15 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : AxomKimLan
+ EmployeeID: 159753.0
+ isCreateLogin: false
+ Username: null
+ Status: null
+ Password: null
+ Confirm password: null
+ isSave: true
+ isCancel: false
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:44:15 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:44:28 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully added the employee from PIM page.
+2024-09-09 01:44:28 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully validated newly added employee is visible on employee table.
+2024-09-09 01:44:28 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:44:28 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:44:29 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able add employee with login credential
+2024-09-09 01:44:29 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : AkomKomLin
+ EmployeeID: 456159.0
+ isCreateLogin: true
+ Username: Akom Lin
+ Status: Disabled
+ Password: Akom@Lin@45
+ Confirm password: Akom@Lin@45
+ isSave: true
+ isCancel: false
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:44:29 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:44:50 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully added the employee from PIM page.
+2024-09-09 01:44:50 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully validated newly added employee is visible on employee table.
+2024-09-09 01:44:50 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:44:50 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:44:51 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to add employee without employeeId
+2024-09-09 01:44:51 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : JhomKmJha
+ EmployeeID: null
+ isCreateLogin: false
+ Username: null
+ Status: null
+ Password: null
+ Confirm password: null
+ isSave: true
+ isCancel: false
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:44:51 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:03 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully added the employee from PIM page.
+2024-09-09 01:45:03 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully validated newly added employee is visible on employee table.
+2024-09-09 01:45:03 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:03 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:05 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee without last name
+2024-09-09 01:45:05 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKornull
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: Rim@Kor@45
+ Confirm password: Rim@Kor@45
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Required
+2024-09-09 01:45:05 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:11 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:11 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:12 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee without first name
+2024-09-09 01:45:12 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : nullKorJha
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: Rim@Kor@45
+ Confirm password: Rim@Kor@45
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Required
+2024-09-09 01:45:12 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:19 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:19 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:20 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee without username when create login details enable
+2024-09-09 01:45:20 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: null
+ Status: Disabled
+ Password: Rim@Kor@45
+ Confirm password: Rim@Kor@45
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Required
+2024-09-09 01:45:20 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:27 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:27 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:29 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee without password when create login details enable
+2024-09-09 01:45:29 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Km Kor
+ Status: Disabled
+ Password: null
+ Confirm password: null
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Required
+2024-09-09 01:45:29 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:34 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:34 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:36 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee when password and confirm password doesn't match, when create login details enable
+2024-09-09 01:45:36 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: Rim@Kor@45
+ Confirm password: Rim@Kor@4
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Passwords do not match
+2024-09-09 01:45:36 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:41 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:41 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:43 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee when username length is less than 5 character, when create login details enable
+2024-09-09 01:45:43 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim
+ Status: Disabled
+ Password: Rim@Kor@4
+ Confirm password: Rim@Kor@4
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Should be at least 5 characters
+2024-09-09 01:45:43 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:49 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:49 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:50 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee when password only contains character and uppercase, when create login details enable
+2024-09-09 01:45:50 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: RIMAKORA
+ Confirm password: null
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Your password must contain minimum 1 lower-case letter
+2024-09-09 01:45:50 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:45:56 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:45:56 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:45:58 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee when password only contains character and lowercase, when create login details enable
+2024-09-09 01:45:58 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: rimakora
+ Confirm password: null
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Your password must contain minimum 1 number
+2024-09-09 01:45:58 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:04 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:46:04 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:46:06 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to add employee when password only contains digit, when create login details enable
+2024-09-09 01:46:06 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : RimKmKor
+ EmployeeID: 123589.0
+ isCreateLogin: true
+ Username: Rim Kor
+ Status: Disabled
+ Password: 1234567.0
+ Confirm password: null
+ isSave: false
+ isCancel: true
+ isSearch: false
+ Error message: Your password must contain minimum 1 lower-case letter
+2024-09-09 01:46:06 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:12 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:46:12 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:46:13 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be added successfully for edit purpose
+2024-09-09 01:46:13 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : TimRmZen
+ EmployeeID: 78945a
+ isCreateLogin: false
+ Username: null
+ Status: null
+ Password: null
+ Confirm password: null
+ isSave: true
+ isCancel: false
+ isSearch: false
+ Error message: No Error
+2024-09-09 01:46:13 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:22 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:46:22 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:46:23 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be added successfully for edit and delete purpose
+2024-09-09 01:46:23 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : SimKrZen
+ EmployeeID: 69854f
+ isCreateLogin: true
+ Username: Sim Zen
+ Status: Enabled
+ Password: Sim@789@4
+ Confirm password: Sim@789@4
+ isSave: true
+ isCancel: false
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:46:23 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:37 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully added the employee from PIM page.
+2024-09-09 01:46:37 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully validated newly added employee is visible on employee table.
+2024-09-09 01:46:37 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:46:37 INFO  org.automation.utils.CustomTestListener - Test Started : addEmployee
+2024-09-09 01:46:38 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be added successfully for delete purpose
+2024-09-09 01:46:38 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Name : DimKrZen
+ EmployeeID: 87463r
+ isCreateLogin: false
+ Username: null
+ Status: null
+ Password: null
+ Confirm password: null
+ isSave: true
+ isCancel: false
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:46:38 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:49 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully added the employee from PIM page.
+2024-09-09 01:46:49 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User successfully validated newly added employee is visible on employee table.
+2024-09-09 01:46:50 INFO  org.automation.utils.CustomTestListener - Test Passed : addEmployee
+2024-09-09 01:46:50 INFO  org.automation.utils.CustomTestListener - Test Started : editEmployee
+2024-09-09 01:46:51 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to edit all details of employee
+2024-09-09 01:46:51 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Tim Rm Zen
+ Name : AxelZinBlaze
+ EmployeeID: Axel@45@BL
+ OtherId: Axel@45@O
+ Driving License Number: DL-AXEL-45
+ License Expiry Date: 2025-31-12
+ Nationality: American
+ Marital Status: Single
+ Date Of Birth: 2000-04-10
+ Gender: Male
+ Blood Type: A+
+ Test Field: Anime
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:46:51 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:46:51 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching existing employee for edit purpose
+2024-09-09 01:47:42 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Employee detail edited successfully.
+2024-09-09 01:47:42 INFO  org.automation.utils.CustomTestListener - Test Passed : editEmployee
+2024-09-09 01:47:42 INFO  org.automation.utils.CustomTestListener - Test Started : editEmployee
+2024-09-09 01:47:43 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to edit all details of employee for delete purpose
+2024-09-09 01:47:43 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Sim Kr Ze
+ Name : ShadowZenGun
+ EmployeeID: Shadow@69@
+ OtherId: null
+ Driving License Number: DL-SHAD-69
+ License Expiry Date: 2030-31-08
+ Nationality: Austrian
+ Marital Status: Married
+ Date Of Birth: 1995-31-12
+ Gender: Male
+ Blood Type: O+
+ Test Field: Gamming
+ isSearch: true
+ Error message: No Error
+2024-09-09 01:47:43 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:47:43 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching existing employee for edit purpose
+2024-09-09 01:48:35 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Employee detail edited successfully.
+2024-09-09 01:48:35 INFO  org.automation.utils.CustomTestListener - Test Passed : editEmployee
+2024-09-09 01:48:35 INFO  org.automation.utils.CustomTestListener - Test Started : editEmployee
+2024-09-09 01:48:36 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to edit employee id, if employee id already exist
+2024-09-09 01:48:36 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Shadow Zen Gun
+ Name : nullnullnull
+ EmployeeID: Axel@45@BL
+ OtherId: null
+ Driving License Number: null
+ License Expiry Date: null
+ Nationality: null
+ Marital Status: null
+ Date Of Birth: null
+ Gender: null
+ Blood Type: null
+ Test Field: null
+ isSearch: false
+ Error message: Employee Id already exists
+2024-09-09 01:48:36 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:48:36 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching existing employee for edit purpose
+2024-09-09 01:49:23 INFO  org.automation.utils.CustomTestListener - Test Passed : editEmployee
+2024-09-09 01:49:23 INFO  org.automation.utils.CustomTestListener - Test Started : editEmployee
+2024-09-09 01:49:24 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to edit employee id, if employee id size is more than 10 character
+2024-09-09 01:49:24 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Shadow Zen Gun
+ Name : nullnullnull
+ EmployeeID: Shadow@69@GN
+ OtherId: null
+ Driving License Number: null
+ License Expiry Date: null
+ Nationality: null
+ Marital Status: null
+ Date Of Birth: null
+ Gender: null
+ Blood Type: null
+ Test Field: null
+ isSearch: false
+ Error message: Should not exceed 10 characters
+2024-09-09 01:49:24 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:49:24 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching existing employee for edit purpose
+2024-09-09 01:50:11 INFO  org.automation.utils.CustomTestListener - Test Passed : editEmployee
+2024-09-09 01:50:11 INFO  org.automation.utils.CustomTestListener - Test Started : editEmployee
+2024-09-09 01:50:12 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should not be able to edit license expiry date, when providing wrong date formate
+2024-09-09 01:50:12 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Shadow Zen Gun
+ Name : nullnullnull
+ EmployeeID: null
+ OtherId: null
+ Driving License Number: null
+ License Expiry Date: 08-31-2030
+ Nationality: null
+ Marital Status: null
+ Date Of Birth: null
+ Gender: null
+ Blood Type: null
+ Test Field: null
+ isSearch: false
+ Error message: Should be a valid date in yyyy-dd-mm format
+2024-09-09 01:50:12 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:50:12 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching existing employee for edit purpose
+2024-09-09 01:50:59 INFO  org.automation.utils.CustomTestListener - Test Passed : editEmployee
+2024-09-09 01:50:59 INFO  org.automation.utils.CustomTestListener - Test Started : deleteEmployee
+2024-09-09 01:51:00 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to delete employee
+2024-09-09 01:51:00 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Dim Kr Zen
+ EmployeeID: 87463r
+ EmployeeID: Normal
+ isSearch: true
+2024-09-09 01:51:00 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:51:00 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching employee for delete purpose
+2024-09-09 01:51:11 INFO  org.automation.testcases.Testcase_003_PIM - Employee deleted successfully.
+2024-09-09 01:51:11 INFO  org.automation.utils.CustomTestListener - Test Passed : deleteEmployee
+2024-09-09 01:51:12 INFO  org.automation.utils.CustomTestListener - Test Started : deleteEmployee
+2024-09-09 01:51:13 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to delete edited employee
+2024-09-09 01:51:13 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: Shadow Zen Gun
+ EmployeeID: Shadow@69@
+ EmployeeID: Selected
+ isSearch: true
+2024-09-09 01:51:13 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:51:13 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching employee for delete purpose
+2024-09-09 01:51:24 INFO  org.automation.testcases.Testcase_003_PIM - Employee deleted successfully.
+2024-09-09 01:51:24 INFO  org.automation.utils.CustomTestListener - Test Passed : deleteEmployee
+2024-09-09 01:51:24 INFO  org.automation.utils.CustomTestListener - Test Started : deleteEmployee
+2024-09-09 01:51:25 INFO  org.automation.testcases.Testcase_003_PIM - Test case name: Verify that the user should be able to delete all employee
+2024-09-09 01:51:25 INFO  org.automation.testcases.Testcase_003_PIM - Test Data: 
+ Existing Name: null
+ EmployeeID: null
+ EmployeeID: All
+ isSearch: false
+2024-09-09 01:51:25 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: User move to PIM page.
+2024-09-09 01:51:25 INFO  org.automation.testcases.Testcase_003_PIM - Test Execution Status: Searching employee for delete purpose
+2024-09-09 01:51:30 INFO  org.automation.utils.CustomTestListener - Test Passed : deleteEmployee
+2024-09-09 01:51:30 INFO  org.automation.utils.CustomTestListener - Test Suite Finished: CRUD functionality validation for different pages
+2024-09-09 01:51:31 INFO  org.automation.testcases.Testcase_001_Login - Test Execution Status: User logged out from the OrangeHrm portal and clear the driver.

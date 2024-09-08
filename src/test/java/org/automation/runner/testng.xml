@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation test suite for OrangeHrm" thread-count="1">
+
+    <listeners>
+        <listener class-name="org.automation.utils.CustomTestListener"></listener>
+    </listeners>
+    <test name="CRUD functionality validation for different pages">
+        <classes>
+            <class name="org.automation.testcases.Testcase_001_Login"/>
+            <class name="org.automation.testcases.Testcase_003_PIM"/>
+<!--            <class name="org.automation.testcases.Testcase_002_Admin"/>-->
+        </classes>
+    </test>
+</suite>
